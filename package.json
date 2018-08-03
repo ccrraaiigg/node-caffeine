@@ -1,0 +1,31 @@
+{
+   "name": "caffeine-node",
+   "version": "1.0.1",
+   "description": "Provide ssh and WebDAV services for a browser-based Caffeine session.",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/ccrraaiigg/caffeine-node.git"
+   },
+   "keywords": [
+      "livecoding",
+      "ssh",
+      "WebDAV",
+      "nodejs",
+      "Caffeine",
+      "websocket"
+   ],
+   "author": "Craig Latta",
+   "license": "MIT",
+   "dependencies": {
+      "buffer-equal-constant-time": "^1.0.1",
+      "prompt-confirm": "^1.2.0",
+      "ssh2": "^0.5.5",
+      "uuid": "^3.1.0",
+      "word-wrap": "^1.2.3",
+      "ws": "^3.0.0"
+   }
+}
